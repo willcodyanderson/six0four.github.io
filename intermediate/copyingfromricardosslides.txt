@@ -54,4 +54,5 @@ git clone http://bitbucket.org/ralvez/myrepo.git (free for private up to 5 users
 
 git blame?? person who changed file
 
-
+sync error certificate failure not solved by
+git push --set-upstream origin master --force

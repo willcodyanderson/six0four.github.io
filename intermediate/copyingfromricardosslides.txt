@@ -1,0 +1,47 @@
+Intermediate
+Ricardo calls it inter/cheatsheet instead of intermediate/copyingfromricardosslides.txt
+
+~/.gitconfig
+
+git config --global user.name='R. Alvez'
+git config --global user.email="Ricardo.Al
+git config --core.editor='vim"
+git config --merge.tool=vimdiff
+git config --color.ui=true
+git config --push.pushdefault=upstream
+
+git config --list
+
+Aliases
+git alias.cm=commit
+git alias.st=status
+git alias.br=branch
+git alias.ck=checkout
+git alias.logg=log --oneline --graph --all
+git alias.llog=log -1 HEAD
+git alias.ust=reset HEAD --
+
+
+credendential helper asa
+
+git gui.recentrepo=/home/ralvez/HTML/SMARTmb
+
+ignore specific developer, operating system files, password files
+
+git add . && git cm????
+
+vim trackme.log contents "2016" ignored can force -f
+
+git config -l or git config --list : Shows your .gitconfig file contents
+
+git checkout filename
+git checkout .
+
+AFTER COMMIT
+git revert HEAD (keep files remove changes)
+git reset --hard HEAD SHA1# (destructive reset, alters history)
+git reset --hard HEAD 36c9bbf (for example)
+
+git revert HEAD "only modifies locally changed files"
+
+git clone --bare inter inter.git

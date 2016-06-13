@@ -56,3 +56,5 @@ git blame?? person who changed file
 
 sync error certificate failure not solved by
 git push --set-upstream origin master --force
+took the following command to successfully push by not verifying cerificates
+git config --system http.sslverify false

@@ -50,7 +50,7 @@ scp -r inter.git alvez@falconmygit"/inter.get  falcon:mygit/inter.git
 
 git clone falcon:mygit/inter.git myrepo.git
 
-git clone http://bitbucket.org/ralvez/myrepo.git
+git clone http://bitbucket.org/ralvez/myrepo.git (free for private up to 5 users vs git hub free is public)
 
 git blame?? person who changed file
 

@@ -1,5 +1,5 @@
-OpenSCADbox
-===========
+Internet of Things Project
+==========================
 
 This is a demonstration of a MarkDown (.md) README file.
 
